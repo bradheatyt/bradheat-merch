@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<div id="myShop">
+    <a href="https://bradheat.myspreadshop.com">bradheat</a>
+</div>
+
+<script>
+    var spread_shop_config = {
+        shopName: 'bradheat',
+        locale: 'us_US',
+        prefix: 'https://bradheat.myspreadshop.com',
+        baseId: 'myShop'
+    };
+</script>
+
+<script type="text/javascript"
+        src="https://bradheat.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
+</script>
