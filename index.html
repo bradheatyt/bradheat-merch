@@ -1,18 +1,34 @@
 <!DOCTYPE html>
-<div id="myShop">
-    <a href="https://bradheat.myspreadshop.com">bradheat</a>
-</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bradheat Shop</title>
+    <!-- Load the font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <style id="spreadshop-font">
+        body, .sprd-shop, .sprd-text {
+            font-family: 'Bowlby One SC', sans-serif !important;
+            background-color: #F6F6F6;
+        }
+    </style>
+</head>
+<body>
+    <div id="myShop">
+        <a href="https://bradheat.myspreadshop.com">bradheat</a>
+    </div>
 
-<script>
-    var spread_shop_config = {
-        shopName: 'bradheat',
-        locale: 'us_US',
-        prefix: 'https://bradheat.myspreadshop.com',
-        baseId: 'myShop'
-    };
-</script>
+    <script>
+        var spread_shop_config = {
+            shopName: 'bradheat',
+            locale: 'us_US',
+            prefix: 'https://bradheat.myspreadshop.com',
+            baseId: 'myShop'
+        };
+    </script>
 
-<script type="text/javascript"
-        src="https://bradheat.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
-</script>
-<style id="spreadshop-font">body{font-family: Raleway,sans-serif;background-color:#F6F6F6;}</style>
+    <script type="text/javascript"
+            src="https://bradheat.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
+    </script>
+</body>
+</html>
